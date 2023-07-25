@@ -10,8 +10,10 @@ class Navbar extends Component {
   };
   render() {
     return (
-      <nav className="NavbarItems">
-        <h1 className="navbar-logo">Nigeria Insight</h1>
+      <nav className="NavbarItems"><Link to="/" style={{ textDecoration: 'none' }}> 
+       <h1 className="navbar-logo">Africa</h1>
+      </Link>
+       
 
         <div className="menu-icons" onClick={this.handleClick}>
           <i
@@ -28,7 +30,10 @@ class Navbar extends Component {
               </Link>
             </li>
           ))}
-          <button>Sign Up</button>
+            <a href="/signup">
+            <button>Sign Up</button>
+            </a>
+          
         </ul>
       </nav>
     );

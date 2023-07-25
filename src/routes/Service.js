@@ -1,7 +1,9 @@
 import React from 'react'
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
-import ServiceImg from '../assets/2.jpg'
+import ServiceImg from '../assets/15.jpg'
+import Footer from '../components/Footer';
+import Trip from '../components/Trip'
 
 
 const Service = () => {
@@ -14,6 +16,8 @@ const Service = () => {
       title="Service"
       btnClass="hide"
     />
+    <Trip />
+    <Footer />
   </>
   )
 }

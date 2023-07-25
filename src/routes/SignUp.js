@@ -1,26 +1,21 @@
 import React from 'react'
-import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import ContactImg from '../assets/3.jpg'
 import Footer from "../components/Footer";
-import ContactForm from '../components/ContactForm';
+import SignUpForm from '../components/SignUpForm';
 
 
-
-const Contact = () => {
+const SignUp = () => {
   return (
-    <>
-    <Navbar /> 
+    <div>
     <Hero
       cName="hero-mid"
       heroImg={ContactImg}
-      title="Contact"
       btnClass="hide"
     />
-    <ContactForm />
-    <Footer />
-  </>
+    <SignUpForm />
+    </div>
   )
 }
 
-export default Contact
+export default SignUp

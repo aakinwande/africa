@@ -53,6 +53,10 @@ img{
     color: #222;
 }
 
+.hero-text .show:hover{
+    color: brown;
+}
+
 .hero-text .hide{
     display: none;
 }

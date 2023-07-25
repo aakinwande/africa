@@ -1,7 +1,9 @@
 import React from 'react'
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
-import AboutImg from '../assets/1.jpg'
+import AboutImg from '../assets/14.jpg'
+import Footer from '../components/Footer';
+import AboutUs from '../components/AboutUs';
 
 const About = () => {
   return (
@@ -13,6 +15,8 @@ const About = () => {
       title="About"
       btnClass="hide"
     />
+    <AboutUs />
+    <Footer />
   </>
   )
 }
